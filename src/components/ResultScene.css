@@ -1,0 +1,14 @@
+.result {
+    border-collapse: collapse;
+}
+
+td,th {
+    border: 1px solid black;
+}
+.clear-text{
+font-size: 28px;
+color: lightcoral;
+}
+.active{
+color: red;
+}

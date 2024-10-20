@@ -1,0 +1,40 @@
+.field {
+    display: grid;
+    grid-template-columns: repeat(5, 80px);
+    grid-template-rows: repeat(4, 80px);
+}
+
+.none {
+    background-color: lightcoral;
+    border: 1px solid black;
+}
+
+.wall {
+    background-color: lightblue;
+    border: 1px solid black;
+}
+
+.player {
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+
+.block {
+    background-color: lightpink;
+    border: 1px solid black;
+}
+
+.exit {
+    background-color: lightgoldenrodyellow;
+    border: 1px solid black;
+}
+
+.move-count {
+    font-size: 24px;
+    color: red;
+}
+
+.timer {
+    font-size: 24px;
+    color: lightseagreen;
+}
